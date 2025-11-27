@@ -1,4 +1,4 @@
-FROM docker:dind-alpine
+FROM docker:dind
 
 # Install Required packages
 RUN apk add --no-cache \
